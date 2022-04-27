@@ -5,6 +5,7 @@ import App from "./App";
 import { MoralisProvider } from "react-moralis";
 import reportWebVitals from "./reportWebVitals";
 import { MORALIS_APP_ID } from "./env";
+import { NotificationProvider } from "web3uikit";
 import { MORALIS_SERVER_URL } from "./env";
 const Moralis = require("moralis");
 
@@ -13,7 +14,9 @@ Moralis.start({ serverUrl: MORALIS_SERVER_URL, appId: MORALIS_APP_ID });
 root.render(
   <React.StrictMode>
     <MoralisProvider appId={MORALIS_APP_ID} serverUrl={MORALIS_SERVER_URL}>
-      <App />
+      <NotificationProvider>
+        <App />
+      </NotificationProvider>
     </MoralisProvider>
   </React.StrictMode>
 );
