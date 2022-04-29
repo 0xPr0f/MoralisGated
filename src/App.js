@@ -56,7 +56,7 @@ function App() {
             </div>
             <br />
             <div>
-              This was also mad with the web3uiKit,&nbsp;
+              This was also made with the web3uiKit,&nbsp;
               <a
                 target="_blank"
                 rel="noreferrer"
