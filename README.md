@@ -7,3 +7,4 @@
 #### And yse i said ethmainnet eth, you dont have to be connected to eth mainnet for your token balance to be read
 
 ### If you enjoy this demo, give me a follow and the repo a star
+### Feel free to open a pr 😝
